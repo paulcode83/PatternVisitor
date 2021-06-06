@@ -34,14 +34,13 @@ namespace DoFactory.GangOfFour.Visitor.RealWorld
          e.Attach(new President());
 
          // Employees are 'visited'
-
          e.Accept(new IncomeVisitor());
          e.Accept(new VacationVisitor());
 
          // Wait for user
 
          Console.ReadKey();
-         Console.WriteLine("Fines Procedura");
+         Console.WriteLine("Fine Procedura");
       }
    }
 
@@ -220,6 +219,11 @@ namespace DoFactory.GangOfFour.Visitor.RealWorld
         : base("Elly", 35000.0, 16)
       {
       }
+
+      public Director(string name)
+      : base(name, 35000.0, 16)
+      {
+      }
    }
 
    class President : Employee
@@ -228,7 +232,12 @@ namespace DoFactory.GangOfFour.Visitor.RealWorld
       // Constructor
 
       public President()
-        : base("Dick", 45000.0, 21)
+        : base("Sampei", 45000.0, 21)
+      {
+      }
+
+      public President(string name)
+       : base(name, 45000.0, 21)
       {
       }
    }
