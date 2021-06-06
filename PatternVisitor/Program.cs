@@ -22,7 +22,7 @@ namespace DoFactory.GangOfFour.Visitor.RealWorld
       /// </summary>
       /// 
 
-
+      class Pluto { }
 
       static void Main()
       {
