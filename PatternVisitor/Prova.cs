@@ -8,7 +8,7 @@ public class Prova
    public int MyProperty5 { get; set; }
    public int MyProperty6 { get; set; }
 
-   public int MyProperty7 { get; set; }
+
    
 
    public Prova()
