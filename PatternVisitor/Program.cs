@@ -34,7 +34,6 @@ namespace DoFactory.GangOfFour.Visitor.RealWorld
          e.Attach(new President());
 
          // Employees are 'visited'
-         Console.WriteLine("metà Procedura");
          e.Accept(new IncomeVisitor());
          e.Accept(new VacationVisitor());
 
