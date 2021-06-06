@@ -27,7 +27,7 @@ namespace DoFactory.GangOfFour.Visitor.RealWorld
       static void Main()
       {
          // Setup employee collection
-
+         Console.WriteLine("Inizio Procedura");
          Employees e = new Employees();
          e.Attach(new Clerk());
          e.Attach(new Director());
@@ -41,6 +41,7 @@ namespace DoFactory.GangOfFour.Visitor.RealWorld
          // Wait for user
 
          Console.ReadKey();
+         Console.WriteLine("Fines Procedura");
       }
    }
 
