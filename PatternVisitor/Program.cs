@@ -220,6 +220,11 @@ namespace DoFactory.GangOfFour.Visitor.RealWorld
         : base("Elly", 35000.0, 16)
       {
       }
+
+      public Director(string name)
+      : base(name, 35000.0, 16)
+      {
+      }
    }
 
    class President : Employee
