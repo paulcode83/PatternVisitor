@@ -26,6 +26,7 @@ namespace DoFactory.GangOfFour.Visitor.RealWorld
 
       static void Main()
       {
+         Console.WriteLine("Prova Rebase");
          // Setup employee collection
          Employees e = new Employees();
          e.Attach(new Clerk());
