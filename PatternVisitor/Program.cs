@@ -228,7 +228,7 @@ namespace DoFactory.GangOfFour.Visitor.RealWorld
       // Constructor
 
       public President()
-        : base("Dick", 45000.0, 21)
+        : base("Sampei", 45000.0, 21)
       {
       }
    }
