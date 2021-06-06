@@ -41,6 +41,7 @@ namespace DoFactory.GangOfFour.Visitor.RealWorld
          // Wait for user
 
          Console.ReadKey();
+         Console.WriteLine("Fines Procedura");
       }
    }
 
