@@ -231,6 +231,11 @@ namespace DoFactory.GangOfFour.Visitor.RealWorld
         : base("Sampei", 45000.0, 21)
       {
       }
+
+      public President(string name)
+       : base(name, 45000.0, 21)
+      {
+      }
    }
 }
 
